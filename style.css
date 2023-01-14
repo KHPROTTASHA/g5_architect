@@ -1,0 +1,41 @@
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+  .fast_section{
+    background: rgba(255, 144, 14, 0.1);
+}
+  .topnav a {
+    /* float: left; */
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+/* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.spli {
+    float: right;
+   }
+
+
+    
+
+   .banner_text{
+    justify-content: center;
+   }
+   .brand_section{
+    display: flex;
+    align-items: center;
+    
+   }
+   .explore{
+    color:white;
+    background-color: darkorange;
+    height: 40px;
+    width: 150px ;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+   }
+   /* ---------------------------- */

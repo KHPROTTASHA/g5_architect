@@ -86,11 +86,11 @@ body {
    .forth_section_img{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 100px;
+    gap: 150px;
     margin-top: 50px;
    }
    .forth_section_icons{
-    border: 2px solid black;
+    border: 2px solid darkorange;
     display: grid;
     grid-template-rows: auto;
     align-items: center;
@@ -103,6 +103,7 @@ body {
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap: 100px;
+    filter: grayscale(100%);
    }
    .fifty_section_text{
     margin-top: 50px;
@@ -111,7 +112,7 @@ body {
     grid-template-rows: auto;
     align-items: center;
     justify-content: center;
-
+    
    }
 
    /* ---------------------------- */

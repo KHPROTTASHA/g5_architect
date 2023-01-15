@@ -95,8 +95,14 @@ body {
     grid-template-rows: auto;
     align-items: center;
     justify-content: center;
-    
-   }
+    transition: transform 2s;
+  }
+  .forth_section_icons:hover{
+    background-color: #ffcccc;
+    width: 200px;
+    height: 200px;
+    rotate: 160deg;
+  }
 
    /* ------------------ */
    .fifty_section_imgs{
